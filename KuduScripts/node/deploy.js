@@ -97,6 +97,7 @@ function complete(callback) {
  * send a text using the twilio api
  */
 function sendMessage(message, callback) {
+	/*
 	request.post({
 		headers: {
 			'content-type': 'application/x-www-form-urlencoded'
@@ -107,6 +108,8 @@ function sendMessage(message, callback) {
 		if (error) console.log(util.inspect(error));		
 		console.log('Twilio request complete: ' + body);
 		callback();
-	});
+		
+	});*/
+	
 }
 
